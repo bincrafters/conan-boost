@@ -1,10 +1,9 @@
-from conans import ConanFile, tools, os
+from conans import ConanFile
 
 
-class BoostAtomicConan(ConanFile):
+class BoostConan(ConanFile):
     name = "Boost"
     version = "1.64.0"
-    generators = "boost"
     settings = "os", "arch", "compiler", "build_type"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost"

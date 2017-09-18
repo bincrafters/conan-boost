@@ -3,7 +3,7 @@ environment:
     PYTHON_VERSION: "2.7.8"
     PYTHON_ARCH: "32"
 
-    CONAN_REFERENCE: "Boost/1.65.1"
+    CONAN_REFERENCE: "Boost/1.64.0"
     CONAN_SUBJECT: "bincrafters"
     CONAN_CHANNEL: "ci"
     CONAN_REPO: "public-conan"

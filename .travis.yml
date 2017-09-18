@@ -1,6 +1,6 @@
 env:
    global:
-     - CONAN_REFERENCE: "Boost/1.65.1"
+     - CONAN_REFERENCE: "Boost/1.64.0"
      - CONAN_SUBJECT: "bincrafters"
      - CONAN_CHANNEL: "ci"
      - CONAN_REPO: "public-conan"

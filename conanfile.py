@@ -11,7 +11,7 @@ class BoostConan(ConanFile):
     license = "www.boost.org/users/license.html"
     default_options = "shared=False"
     options = {"shared": [True, False]}
-    build_requires = "Boost.Generator/0.0.1@bincrafters/testing" 
+    build_requires = "Boost.Generator/1.65.1@bincrafters/testing" 
     requires = "Boost.Accumulators/1.65.1@bincrafters/testing", \
         "Boost.Algorithm/1.65.1@bincrafters/testing", \
         "Boost.Align/1.65.1@bincrafters/testing", \
@@ -137,5 +137,3 @@ class BoostConan(ConanFile):
         "Boost.Wave/1.65.1@bincrafters/testing", \
         "Boost.Winapi/1.65.1@bincrafters/testing", \
         "Boost.Xpressive/1.65.1@bincrafters/testing", \
-
-

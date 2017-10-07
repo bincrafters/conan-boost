@@ -28,7 +28,9 @@
 *.out
 *.app
 
-# Directories
+# # Directories
+*.pyc
+test_package/build
 .idea
 __pycache__
 init.bat

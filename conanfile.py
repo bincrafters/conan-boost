@@ -9,8 +9,6 @@ class BoostConan(ConanFile):
     url = "https://github.com/bincrafters/conan-boost"
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    default_options = "shared=False"
-    options = {"shared": [True, False]}
     build_requires = "Boost.Generator/1.65.1@bincrafters/testing" 
     requires = "Boost.Accumulators/1.65.1@bincrafters/testing", \
         "Boost.Algorithm/1.65.1@bincrafters/testing", \
@@ -90,6 +88,7 @@ class BoostConan(ConanFile):
         "Boost.Optional/1.65.1@bincrafters/testing", \
         "Boost.Parameter/1.65.1@bincrafters/testing", \
         "Boost.Phoenix/1.65.1@bincrafters/testing", \
+        "Boost.Poly_Collection/1.65.1@bincrafters/testing", \
         "Boost.Polygon/1.65.1@bincrafters/testing", \
         "Boost.Pool/1.65.1@bincrafters/testing", \
         "Boost.Predef/1.65.1@bincrafters/testing", \
@@ -114,6 +113,7 @@ class BoostConan(ConanFile):
         "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
         "Boost.Sort/1.65.1@bincrafters/testing", \
         "Boost.Spirit/1.65.1@bincrafters/testing", \
+        "Boost.Stacktrace/1.65.1@bincrafters/testing", \
         "Boost.Statechart/1.65.1@bincrafters/testing", \
         "Boost.Static_Assert/1.65.1@bincrafters/testing", \
         "Boost.System/1.65.1@bincrafters/testing", \
@@ -136,4 +136,4 @@ class BoostConan(ConanFile):
         "Boost.Vmd/1.65.1@bincrafters/testing", \
         "Boost.Wave/1.65.1@bincrafters/testing", \
         "Boost.Winapi/1.65.1@bincrafters/testing", \
-        "Boost.Xpressive/1.65.1@bincrafters/testing", \
+        "Boost.Xpressive/1.65.1@bincrafters/testing"

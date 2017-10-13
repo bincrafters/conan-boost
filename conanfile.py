@@ -9,8 +9,6 @@ class BoostConan(ConanFile):
     url = "https://github.com/bincrafters/conan-boost"
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    default_options = "shared=False"
-    options = {"shared": [True, False]}
     build_requires = "Boost.Generator/1.65.1@bincrafters/stable" 
     requires = "Boost.Accumulators/1.65.1@bincrafters/stable", \
         "Boost.Algorithm/1.65.1@bincrafters/stable", \

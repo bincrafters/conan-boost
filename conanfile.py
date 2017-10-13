@@ -90,6 +90,7 @@ class BoostConan(ConanFile):
         "Boost.Optional/1.65.1@bincrafters/stable", \
         "Boost.Parameter/1.65.1@bincrafters/stable", \
         "Boost.Phoenix/1.65.1@bincrafters/stable", \
+        "Boost.Poly_Collection/1.65.1@bincrafters/stable", \
         "Boost.Polygon/1.65.1@bincrafters/stable", \
         "Boost.Pool/1.65.1@bincrafters/stable", \
         "Boost.Predef/1.65.1@bincrafters/stable", \
@@ -114,6 +115,7 @@ class BoostConan(ConanFile):
         "Boost.Smart_Ptr/1.65.1@bincrafters/stable", \
         "Boost.Sort/1.65.1@bincrafters/stable", \
         "Boost.Spirit/1.65.1@bincrafters/stable", \
+        "Boost.Stacktrace/1.65.1@bincrafters/stable", \
         "Boost.Statechart/1.65.1@bincrafters/stable", \
         "Boost.Static_Assert/1.65.1@bincrafters/stable", \
         "Boost.System/1.65.1@bincrafters/stable", \
@@ -136,4 +138,4 @@ class BoostConan(ConanFile):
         "Boost.Vmd/1.65.1@bincrafters/stable", \
         "Boost.Wave/1.65.1@bincrafters/stable", \
         "Boost.Winapi/1.65.1@bincrafters/stable", \
-        "Boost.Xpressive/1.65.1@bincrafters/stable", \
+        "Boost.Xpressive/1.65.1@bincrafters/stable"
